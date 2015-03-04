@@ -18,22 +18,22 @@
 
     <string name="app_name">GravityBox [LP]</string>
 
-    <string name="battery_style_title">Battery indicator stijl</string>	
-    <string name="battery_style_stock">Standaard batterij indicator</string>
-    <string name="battery_style_circle">Cirkel batterij</string>
-    <string name="battery_style_circle_percent">Cirkel batterij met percentage</string>
+    <string name="battery_style_title">Stijl accu-indicator</string>	
+    <string name="battery_style_stock">Standaard accu-indicator</string>
+    <string name="battery_style_circle">Cirkelaccu</string>
+    <string name="battery_style_circle_percent">Cirkelaccu met percentage</string>
     <string name="battery_style_none">Geen</string>
 
-    <string name="vol_music_controls_title">Volume knoppen slaan liedje over</string>
-    <string name="vol_music_controls_summary">Liedjes overslaan op lang indrukken van volumetoetsen terwijl het scherm uitgeschakeld is</string>
+    <string name="vol_music_controls_title">Nummer overslaan met volumeknoppen</string>
+    <string name="vol_music_controls_summary">Nummer overslaan bij lang indrukken van volumetoetsen als scherm is uitgeschakeld</string>
 
-    <string name="low_battery_warning_policy_title">Lage batterij waarschuwing</string>
+    <string name="low_battery_warning_policy_title">Waarschuwing accu bijna leeg</string>
     <string name="low_battery_warning_off">Uit</string>
 
-  <string name="reboot_required">Verandering zal na een herstart worden toegepast</string>
+  <string name="reboot_required">Verandering wordt na herstart toegepast</string>
 
-    <string name="poweroff_advanced_title">Geavanceerde herstart menu</string>
-    <string name="poweroff_advanced_summary">Maakt geavanceerde herstart menu met opties om te herstarten naar recovery</string>
+    <string name="poweroff_advanced_title">Geavanceerd herstartmenu</string>
+    <string name="poweroff_advanced_summary">Geavanceerd herstartmenu met opties naar recovery om te herstarten</string>
     <string name="poweroff_recovery">Recovery</string>
     <string name="poweroff_bootloader">Bootloader</string>
 
@@ -41,9 +41,9 @@
     <string name="vol_key_cursor_control_summary">Bestuurt wijzer door gebruik van volumetoetsen in tekstvelden</string>
     <string name="vol_key_cursor_control_off">Uitgeschakeld</string>
     <string name="vol_key_cursor_control_on">Volume omhoog/omlaag beweegt wijzer links/rechts</string>
-    <string name="vol_key_cursor_control_on_reverse">Volume uomhoog/omlaag beweegt wijzer rechts/links</string>
+    <string name="vol_key_cursor_control_on_reverse">Volume omhoog/omlaag beweegt wijzer rechts/links</string>
 
-    <string name="recents_clear_all_title">Verwijder alle recente taken</string>
+    <string name="recents_clear_all_title">Alle recente taken verwijderen</string>
 
     <string name="important">Belangrijk</string>
 
@@ -58,7 +58,7 @@
     <string name="quick_settings_qr_playing">Spelen&#8230;</string>
     <string name="quick_settings_qr_recording">Opnemen&#8230;</string>
     <string name="quick_settings_qr_recorded">Opgenomen</string>
-    <string name="quick_settings_qr_record">Lang ingedrukt om op te nemen</string>
+    <string name="quick_settings_qr_record">Houd ingedrukt om op te nemen</string>
     <string name="quick_settings_qr_recording_notif">Raak aan om te stoppen met opnemen</string>
     <string name="quick_settings_expanded_desktop_disabled">Uitgeschakeld</string>
     <string name="quick_settings_expanded_desktop_normal">Normaal</string>
@@ -97,7 +97,7 @@
     <string name="qs_tile_sleep">Slaap</string>
     <string name="qs_tile_quickrecord">Snel Opnemen</string>
     <string name="qs_tile_volume">Volume</string>
-    <string name="qs_tile_expanded_desktop">Uitgebrijd desktop</string>
+    <string name="qs_tile_expanded_desktop">Uitgebreid desktop</string>
     <string name="qs_tile_stay_awake">Blijf Wakker</string>
     <string name="qs_tile_screenshot">Scherm Opname</string>
     <string name="qs_tile_nfc">NFC</string>
@@ -188,7 +188,7 @@
     <string name="pref_ab_button_set">Instellen</string>
 
     <!-- Lockscreen rotation -->
-    <string name="pref_lockscreen_rotation_title">Vergrendelscherm rotatie inschakelen</string>
+    <string name="pref_lockscreen_rotation_title">Rotatie vergrendelscherm inschakelen</string>
 
     <!-- Lockscreen menu key -->
     <string name="pref_lockscreen_menu_key_title">Menuknop inschakelen</string>
@@ -202,8 +202,8 @@
     <string name="pref_cat_media_summary">Bevat verschillende tweaks voor media en audio</string>
 
     <!-- More music volume steps -->
-    <string name="pref_music_volume_steps_title">Meer muziek volume stappen</string>
-    <string name="pref_music_volume_steps_summary">Voegt meer volumestappen toe voor de muziek stream (herstart vereist)</string>
+    <string name="pref_music_volume_steps_title">Meer mediavolumestappen</string>
+    <string name="pref_music_volume_steps_summary">Voegt meer volumestappen toe voor media (herstart vereist)</string>
 
     <!-- Safe headset media volume -->
     <string name="pref_safe_media_volume_title">Veilig headset media volume</string>
@@ -219,15 +219,15 @@
     <string name="hwkey_action_search">Zoeken</string>
     <string name="hwkey_action_voice_search">Spraakgestuurd zoeken</string>
     <string name="hwkey_action_prev_app">Naar vorige app gaan</string>
-    <string name="hwkey_action_kill">Huidige app killen</string>
+    <string name="hwkey_action_kill">Huidige app afsluiten</string>
     <string name="hwkey_action_sleep">In slaapstand gaan</string>
     <string name="pref_hwkey_kill_delay_title">App killen lang drukken vertraging</string>
     <string name="pref_hwkey_kill_delay_summary">Van toepassing op huidige app kill-actie. Defineert hoe lang knop ingedrukt moet worden om kill te triggeren</string>
     <string name="pref_hwkey_doubletap_speed_title">Double-tap snelheid</string>
     <string name="pref_hwkey_doubletap_speed_summary">Stelt in hoe snel een knop aangeraakt moet worden om double-tap te triggeren</string>
-    <string name="app_killed">%s gekilled</string>
-    <string name="nothing_to_kill">Er is niets om te killen</string>
-    <string name="no_previous_app_found">Geen voorgaande app gevonden</string>
+    <string name="app_killed">%s afgesloten</string>
+    <string name="nothing_to_kill">Geen app om af te sluiten</string>
+    <string name="no_previous_app_found">Geen vorige app gevonden</string>
 
     <!--  Phone tweaks category -->
     <string name="pref_cat_phone_title">Telefoon tweaks</string>
@@ -1113,23 +1113,23 @@
     <string name="stay_awake_on">Stay awake on</string>
 
     <!-- Screen recording options -->
-    <string name="pref_cat_screenrecord_options_title">Screen recording</string>
-    <string name="pref_cat_screenrecord_options_summary">Contains options for screen recording</string>
-    <string name="pref_screenrecord_size_title">Video size</string>
-    <string name="scr_size_default">Device default</string>
+    <string name="pref_cat_screenrecord_options_title">Schermopname</string>
+    <string name="pref_cat_screenrecord_options_summary">Bevat opties voor schermopname</string>
+    <string name="pref_screenrecord_size_title">Videogrootte</string>
+    <string name="scr_size_default">Standaard apparaat</string>
     <string name="scr_size_sd">SD (360x640px)</string>
     <string name="scr_size_hd">HD (720x1280px)</string>
-    <string name="scr_size_full_hd">Full HD (1080x1920px)</string>
-    <string name="pref_screenrecord_bitrate_title">Video bitrate</string>
-    <string name="pref_screenrecord_timelimit_title">Time limit</string>
-    <string name="pref_screenrecord_rotate_title">Rotate picture</string>
-    <string name="pref_screenrecord_rotate_summary">Rotates the output by 90 degrees</string>
-    <string name="pref_screenrecord_microphone_title">Use microphone</string>
+    <string name="scr_size_full_hd">Full HD (1080x1920)</string>
+    <string name="pref_screenrecord_bitrate_title">Bitrate video</string>
+    <string name="pref_screenrecord_timelimit_title">Tijdslimiet</string>
+    <string name="pref_screenrecord_rotate_title">Beeld draaien</string>
+    <string name="pref_screenrecord_rotate_summary">Uitvoer met 90 graden draaien</string>
+    <string name="pref_screenrecord_microphone_title">Microfoon gebruiken</string>
     <string name="pref_screenrecord_microphone_summary">Whether to use microphone for audio input</string>
 
     <!-- Icon picker: new icons -->
     <string name="shortcuts_icon_picker_tapatalk">Tapatalk</string>
-    <string name="shortcuts_icon_picker_whatsapp">Whatsapp</string>
+    <string name="shortcuts_icon_picker_whatsapp">WhatsApp</string>
 
     <!-- Charger plugged sound -->
     <string name="pref_charger_plugged_sound_title">Charger plugged sound</string>
